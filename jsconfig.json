@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "types": [
+            "**/**/**/*.js",
+            "webdriverio/sync",
+            "@wdio/mocha-framework"
+        ]
+    }
+}
