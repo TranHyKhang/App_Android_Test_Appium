@@ -61,19 +61,53 @@ class DetailTour {
            this.clickOnButtonAdultsNumberDecrease() 
         }
 
-        return this;
     }
 
     increaseAdultsNumber() {
-        while(Number(this.getAdultsNumber.getText()) < 5) {
+        while(Number(this.getAdultsNumber.getText()) !== 5) {
             this.clickOnButtonAdultsNumberIncrease() 
         }
 
-        return this;
     }
 
     checkAdultNumberIsValid() {
         if(Number(this.getAdultsNumber.getText()) > 0) {
+            return true;
+        } 
+        return false
+    }
+
+    //CHILDREN NUMBER
+    get getChildrenNumber() {
+        return $(CHILDREN_NUMBER)
+    }
+
+    clickOnButtonChildrenNumberIncrease() {
+        $(CHILDREN_INCREASE_BUTTON).click();
+        return this;
+    }
+
+    clickOnButtonChildrenNumberDecrease() {
+        $(CHILDREN_DECREASE_BUTTON).click();
+        return this;
+    }
+
+    decreaseChildrenNumber() {
+        while(Number(this.getChildrenNumber.getText()) >= 0) {
+           this.clickOnButtonChildrenNumberDecrease() 
+        }
+
+    }
+
+    increaseChildrenNumber() {
+        while(Number(this.getChildrenNumber.getText()) !== 5) {
+            this.clickOnButtonChildrenNumberIncrease() 
+        }
+
+    }
+
+    checkChildrenNumberIsValid() {
+        if(Number(this.getChildrenNumber.getText()) > 0) {
             return true;
         } 
         return false
