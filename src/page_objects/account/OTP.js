@@ -12,17 +12,17 @@ class OTP {
     }
 
     get getOTPTextField() {
-        $(edtOTP).waitForDisplayed({timeout: 20000})
+        $(edtOTP).waitForDisplayed({timeout: 30000})
         return $(edtOTP)
     }
 
     get getLabelSDT() {
-        $(labelSDT).waitForDisplayed({timeout: 20000})
+        $(labelSDT).waitForDisplayed({timeout: 30000})
         return $(labelSDT)
     }
 
     OTPTextField() {
-        $(edtOTP).waitForDisplayed({timeout: 20000})
+        $(edtOTP).waitForDisplayed({timeout: 30000})
         return this
     }
 
