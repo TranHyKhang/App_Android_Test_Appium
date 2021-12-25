@@ -39,6 +39,25 @@ exports.config = {
         // './src/test_scripts/BottomTab/TC_004_BottomTab.js',
         // './src/test_scripts/BottomTab/TC_005_BottomTab.js',
 
+        //HomeScreen
+        // './src/test_scripts/HomeScreen/TC_001_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_002_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_003_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_004_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_005_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_006_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_007_HomeScreen.js',
+        // './src/test_scripts/HomeScreen/TC_008_HomeScreen.js',
+
+        //Detail Tour Screen
+        // './src/test_scripts/DetailTour/TC_001_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_002_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_003_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_004_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_005_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_006_DetailTour.js',
+
+
     ],
     capabilities: [
         {
