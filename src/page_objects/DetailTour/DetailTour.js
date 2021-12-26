@@ -56,11 +56,20 @@ class DetailTour {
         return this;
     }
 
-    decreaseAdultsNumber() {
+    decreaseAdultsNumberToNegative() {
         while(Number(this.getAdultsNumber.getText()) >= 0) {
            this.clickOnButtonAdultsNumberDecrease() 
         }
 
+        return this;
+    }
+
+    decreaseAdultsNumberToZero() {
+        while(Number(this.getAdultsNumber.getText()) > 0) {
+           this.clickOnButtonAdultsNumberDecrease() 
+        }
+
+        return this;
     }
 
     increaseAdultsNumber() {
@@ -68,6 +77,7 @@ class DetailTour {
             this.clickOnButtonAdultsNumberIncrease() 
         }
 
+        return this;
     }
 
     checkAdultNumberIsValid() {
@@ -92,18 +102,28 @@ class DetailTour {
         return this;
     }
 
-    decreaseChildrenNumber() {
+    decreaseChildrenNumberToNegative() {
         while(Number(this.getChildrenNumber.getText()) >= 0) {
            this.clickOnButtonChildrenNumberDecrease() 
         }
 
+        return this;
+    }
+
+    decreaseChildrenNumberToZero() {
+        while(Number(this.getChildrenNumber.getText()) > 0) {
+           this.clickOnButtonChildrenNumberDecrease() 
+        }
+
+        return this;
     }
 
     increaseChildrenNumber() {
-        while(Number(this.getChildrenNumber.getText()) !== 5) {
+        while(Number(this.getChildrenNumber.getText()) !== 2) {
             this.clickOnButtonChildrenNumberIncrease() 
         }
 
+        return this;
     }
 
     checkChildrenNumberIsValid() {
@@ -112,7 +132,11 @@ class DetailTour {
         } 
         return false
     }
-
+    
+    //BOOK BUTTON
+    clickOnButtonBookTour() {
+        $(BOOK_TOUR_BUTTON).click();
+    }
 }
 
 export default new DetailTour();
