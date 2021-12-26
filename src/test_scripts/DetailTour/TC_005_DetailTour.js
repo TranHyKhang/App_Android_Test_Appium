@@ -68,7 +68,7 @@ describe('Test Detail Tour function', () => {
 
     it('Click button decrease children and check number is valid', () => {
         
-        DetailTour.decreaseChildrenNumber();
+        DetailTour.decreaseChildrenNumberToNegative();
 
         let rs = DetailTour.checkChildrenNumberIsValid();
 

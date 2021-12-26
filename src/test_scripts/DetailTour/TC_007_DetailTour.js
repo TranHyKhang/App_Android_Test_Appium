@@ -66,13 +66,15 @@ describe('Test Detail Tour function', () => {
 
     })
 
-    it('Click button decrease adults and check number is valid', () => {
+    it('CLick on book button without adult and children', () => {
         
-        DetailTour.decreaseAdultsNumberToNegative();
+        DetailTour.decreaseAdultsNumberToZero().clickOnButtonBookTour();
 
-        let rs = DetailTour.checkAdultNumberIsValid();
+        let curruntActivity = browser.getCurrentActivity();
 
-        expect(rs).toBe(true)
+        let expectActivity = curruntActivity === '.InfoTour' ? true : false;
+
+        expect(expectActivity).toBe(true);
 
         browser.pause(5000)
     })

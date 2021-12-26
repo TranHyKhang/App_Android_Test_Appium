@@ -66,7 +66,7 @@ describe('Test Detail Tour function', () => {
 
     })
 
-    it('Click button increase adults and check number is valid', () => {
+    it('Click button increase children and check number is valid', () => {
         
         DetailTour.increaseChildrenNumber();
 
