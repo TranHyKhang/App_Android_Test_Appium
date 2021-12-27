@@ -19,6 +19,10 @@ class ProfileScreen {
         $(BUTTON_LOVED).click();
     }
 
+    clickOnButtonLanguage() {
+        $(BUTTON_LANGUAGE).click()
+    }
+
     clickOnButtonHistory() {
         $(BUTTON_HISTORY).click();
     }
@@ -31,3 +35,5 @@ class ProfileScreen {
         $(BUTTON_CONTACT).click();
     }
 }
+
+export default new ProfileScreen();
