@@ -56,6 +56,46 @@ exports.config = {
         // './src/test_scripts/DetailTour/TC_004_DetailTour.js',
         // './src/test_scripts/DetailTour/TC_005_DetailTour.js',
         // './src/test_scripts/DetailTour/TC_006_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_007_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_008_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_009_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_010_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_011_DetailTour.js',
+        // './src/test_scripts/DetailTour/TC_012_DetailTour.js',
+
+        //OrderScreen
+        // './src/test_scripts/OrderScreen/TC_001_OrderScreen.js',
+        // './src/test_scripts/OrderScreen/TC_002_OrderScreen.js',
+        // './src/test_scripts/OrderScreen/TC_003_OrderScreen.js',
+        // './src/test_scripts/OrderScreen/TC_004_OrderScreen.js',
+        // './src/test_scripts/OrderScreen/TC_005_OrderScreen.js',
+        // './src/test_scripts/OrderScreen/TC_006_OrderScreen.js',
+        // './src/test_scripts/OrderScreen/TC_007_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_008_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_009_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_010_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_011_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_012_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_013_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_014_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_015_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_016_OrderScreen.js', //p
+        // './src/test_scripts/OrderScreen/TC_017_OrderScreen.js', //P
+        // './src/test_scripts/OrderScreen/TC_018_OrderScreen.js', //P 60
+        // './src/test_scripts/OrderScreen/TC_019_OrderScreen.js', //P
+
+        //VoucherScreen
+        // './src/test_scripts/VoucherScreen/TC_001_VoucherScreen.js', //P
+        // './src/test_scripts/VoucherScreen/TC_002_VoucherScreen.js',
+        // './src/test_scripts/VoucherScreen/TC_003_VoucherScreen.js',
+
+        //TourScreen
+        // './src/test_scripts/TourScreen/TC_001_TourScreen.js',
+        // './src/test_scripts/TourScreen/TC_002_TourScreen.js',
+
+        //NewsScreen
+        // './src/test_scripts/NewsScreen/TC_001_NewsScreen.js',
+        // './src/test_scripts/NewsScreen/TC_002_NewsScreen.js',
 
 
     ],
