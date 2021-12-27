@@ -15,7 +15,7 @@ class BottomTab {
 
     get getHomeTab() {
         $(HOME_TAB).waitForDisplayed({timeout: 20000})
-        return $(HOME_LABEL);
+        return $(HOME_TAB);
     }
 
     get getHomeTabLabel() {
