@@ -97,6 +97,15 @@ exports.config = {
         // './src/test_scripts/NewsScreen/TC_001_NewsScreen.js',
         // './src/test_scripts/NewsScreen/TC_002_NewsScreen.js',
 
+        //ProfileScreen
+        // './src/test_scripts/ProfileScreen/TC_001_ProfileScreen.js',
+        // './src/test_scripts/ProfileScreen/TC_002_ProfileScreen.js',
+        // './src/test_scripts/ProfileScreen/TC_003_ProfileScreen.js',
+        // './src/test_scripts/ProfileScreen/TC_004_ProfileScreen.js',
+        // './src/test_scripts/ProfileScreen/TC_005_ProfileScreen.js',
+        // './src/test_scripts/ProfileScreen/TC_006_ProfileScreen.js',
+        // './src/test_scripts/ProfileScreen/TC_007_ProfileScreen.js',
+
 
     ],
     capabilities: [
