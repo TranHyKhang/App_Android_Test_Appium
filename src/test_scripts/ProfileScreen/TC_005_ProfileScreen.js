@@ -1,6 +1,7 @@
 import Login from '../../page_objects/account/Login';
 import OTP from '../../page_objects/account/OTP';
 import BottomTab from '../../page_objects/BottomTab/BottomTab';
+import ProfileScreen from '../../page_objects/ProfileScreen/ProfileScreen';
 
 
 describe('Bottom tab Function', () => {
@@ -11,10 +12,12 @@ describe('Bottom tab Function', () => {
 
     })
 
-    it('Tab profile tab and tab back to home', () => {
+    it('Tab profile tab and click language', () => {
         BottomTab.clickOnProfileTab();
-        browser.pause(3000)
-        BottomTab.clickOnHomeTab();
+        browser.pause(1000)
+        
+        ProfileScreen.clickOnButtonLanguage();
+
         browser.pause(5000)
     })
 
