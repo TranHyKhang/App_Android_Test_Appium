@@ -6,7 +6,14 @@ describe('Test Home Screen function', () => {
 
         Login.setPhoneNumberTextField('0933308108').clickOnButtonLogin();
 
-        OTP.OTPTextField().setOTPTextField('000000').clickOnButtonConfirmOTP();
+        
+        OTP.OTPTextField().setOTPTextField('000000')
+        let a = browser.getCurrentActivity()
+
+        console.log('*******************')
+        console.log(a)
+        console.log('*******************')
+        OTP.clickOnButtonConfirmOTP();
 
         browser.pause(5000);
         
