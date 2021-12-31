@@ -5,6 +5,7 @@ const BUTTON_CANCEL = '/hierarchy/android.widget.FrameLayout/android.widget.Line
 class HistoryDetailScreen {
     waitTillDisplayed() {
         $(ICON_BACK).waitForDisplayed({timeout: 5000});
+        return this;
     }
 
     clickOnButtonBack() {
