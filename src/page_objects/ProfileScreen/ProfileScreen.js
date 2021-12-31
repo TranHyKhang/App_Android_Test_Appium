@@ -8,7 +8,8 @@ const BUTTON_CONTACT = '/hierarchy/android.widget.FrameLayout/android.widget.Lin
 
 class ProfileScreen {
     waitTillDisplayed() {
-        $(BUTTON_PROFILE).waitForDisplayed({timeout: 5000})
+        $(BUTTON_PROFILE).waitForDisplayed({timeout: 5000});
+        return this;
     }
 
     clickOnButtonProfile() {
