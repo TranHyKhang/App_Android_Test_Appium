@@ -106,6 +106,43 @@ exports.config = {
         // './src/test_scripts/ProfileScreen/TC_006_ProfileScreen.js',
         // './src/test_scripts/ProfileScreen/TC_007_ProfileScreen.js',
 
+        //EditProfileScreen
+        // './src/test_scripts/EditProfileScreen/TC_001_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_002_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_003_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_004_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_005_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_006_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_007_EditProfileScreen.js',
+        // './src/test_scripts/EditProfileScreen/TC_008_EditProfileScreen.js',
+
+        //LovedScreen
+        // './src/test_scripts/LovedScreen/TC_001_LovedScreen.js',
+        // './src/test_scripts/LovedScreen/TC_002_LovedScreen.js',
+        // './src/test_scripts/LovedScreen/TC_003_LovedScreen.js',
+        // './src/test_scripts/LovedScreen/TC_004_LovedScreen.js',
+
+        //HistoryScreen
+        // './src/test_scripts/HistoryScreen/TC_001_HistoryScreen.js',
+        // './src/test_scripts/HistoryScreen/TC_002_HistoryScreen.js', // 90
+        // './src/test_scripts/HistoryScreen/TC_003_HistoryScreen.js',
+        // './src/test_scripts/HistoryScreen/TC_004_HistoryScreen.js',
+        // './src/test_scripts/HistoryScreen/TC_005_HistoryScreen.js',
+
+        //LanguageScreen
+        // './src/test_scripts/LanguageScreen/TC_001_LanguageScreen.js',
+        // './src/test_scripts/LanguageScreen/TC_002_LanguageScreen.js',
+        // './src/test_scripts/LanguageScreen/TC_003_LanguageScreen.js',
+        // './src/test_scripts/LanguageScreen/TC_004_LanguageScreen.js',
+
+        //RulesScreen
+        // './src/test_scripts/RulesScreen/TC_001_RulesScreen.js',
+        // './src/test_scripts/RulesScreen/TC_002_RulesScreen.js',
+
+        //ContactScreen
+        // './src/test_scripts/ContactScreen/TC_001_ContactScreen.js',
+        // './src/test_scripts/ContactScreen/TC_002_ContactScreen.js',
+
 
     ],
     capabilities: [
