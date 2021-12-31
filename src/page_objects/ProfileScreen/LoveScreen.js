@@ -16,6 +16,10 @@ class LoveScreen {
     clickOnHeartIcon() {
         $(HEART_ICON).click();
     }
+
+    clickOnIconBack() {
+        $(ICON_BACK).click();
+    }
 }
 
 export default new LoveScreen();
